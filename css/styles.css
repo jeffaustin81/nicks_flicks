@@ -13,10 +13,12 @@
 .pointer {
     cursor: pointer;
 }
-.normal {
-	filter: invert(0%);
-}
-
 .inverted {
-	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+.black {
+    background: #fff;
+}
+html {
+    height: 100%;
 }

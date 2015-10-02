@@ -12,6 +12,9 @@
     <script src="controllers/ReviewsController.js"></script>
     <script src="controllers/ReviewController.js"></script>
     <script src="controllers/HeadersController.js"></script>
+    <script src="directives/MyDirectives.js">
+
+    </script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -19,6 +22,7 @@
 <body>
     <div class="container-fluid">
         <div ui-view="header"></div>
+        <p change-class="inverted black" class="pointer">Invert Page</p>
         <div ui-view="body" class="row"></div>
     </div>
 </body>
