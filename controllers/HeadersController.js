@@ -1,3 +1,3 @@
 nicksFlicks.controller('HeadersCtrl', function HeadersCtrl($scope, $location) {
-  $scope.currentPath = $location.path();
+    $scope.currentPath = $location.path();
 });
