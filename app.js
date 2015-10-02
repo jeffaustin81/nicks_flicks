@@ -29,4 +29,18 @@ nicksFlicks.config(function($stateProvider) {
     }
   });
 
+  $stateProvider.state('reviews.review', {
+    url: "/:reviewId",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/review.html",
+        controller: 'ReviewCtrl'
+      },
+    }
+  });
+
   });
