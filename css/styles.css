@@ -1,3 +1,22 @@
 .left {
     float: left;
 }
+.center {
+    text-align: center;
+}
+.navbar {
+    border-bottom: solid 5px grey;
+}
+.subtitle {
+    color: grey;
+}
+.pointer {
+    cursor: pointer;
+}
+.normal {
+	filter: invert(0%);
+}
+
+.inverted {
+	filter: invert(100%);
+}
