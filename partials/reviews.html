@@ -1,0 +1,9 @@
+<div ng-show="reviews.length">
+  <ul>
+    <li ng-repeat="item in reviews">
+      <a ui-sref="reviews.review({ reviewId: item.id })">{{ item.title }}</a>
+    </li>
+  </ul>
+</div>
+
+<div ui-view="body"> </div>
